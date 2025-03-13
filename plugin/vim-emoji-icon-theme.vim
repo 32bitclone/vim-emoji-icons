@@ -954,6 +954,7 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ps1'] = g:iconShell
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['psb'] = g:iconImage " *.psb image (large format size for photoshop)
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['psd'] = g:iconImage
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['psl'] = g:iconsSpec " Property Specification Language (PSL)
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pub'] = g:iconCert
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['pug'] = g:iconPug
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['puml'] = g:iconDiagram " plantuml filetype
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['py'] = g:iconPython " Python
@@ -1551,6 +1552,7 @@ if use then
     imported.set_icon { psb = {icon = vim.g.iconImage, color = "#000000",name = "psb" } }
     imported.set_icon { psd = {icon = vim.g.iconImage, color = "#000000",name = "psd" } }
     imported.set_icon { psl = {icon = vim.g.iconsSpec, color = "#000000",name = "psl" } }
+    imported.set_icon { pub = {icon = vim.g.iconCert, color = "#000000",name = "pub" } }
     imported.set_icon { pug = {icon = vim.g.iconPug, color = "#000000",name = "pug" } }
     imported.set_icon { puml = {icon = vim.g.iconDiagram, color = "#000000",name = "puml" } }
     imported.set_icon { py = {icon = vim.g.iconPython, color = "#000000",name = "py" } }
